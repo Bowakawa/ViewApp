@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         objectList = new ArrayList<>();
 
+        
         objectList.add(new ObjectItem(R.drawable.image1, "ВК Музыка", "ВК Музыка", "Кайфуйте"));
         objectList.add(new ObjectItem(R.drawable.image2, "ВК Видео", "ВК Видео", "Сдохните"));
         // Add more objects as needed
