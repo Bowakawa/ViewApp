@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        // Initialize your object list
         objectList = new ArrayList<>();
         objectList.add(new ObjectItem(R.drawable.image1, "ВК Музыка", "Музыкальный плеер", "Кайфуйте"));
         objectList.add(new ObjectItem(R.drawable.image2, "ВК Видео", "Видео плеер", "Сдохните"));
